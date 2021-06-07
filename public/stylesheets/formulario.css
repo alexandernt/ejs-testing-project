@@ -1,0 +1,156 @@
+.form__titulo {
+  text-align: center;
+  padding-top: 70px;
+}
+.formSection {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.formSection {
+  flex-basis: 70%;
+  width: 100%;
+  display: flex;
+}
+.form {
+  padding-top: 80px;
+  margin-bottom: 100px;
+  width: 36%;
+}
+
+.formInfoSection {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textInformativo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.textInformativo p {
+  margin-bottom: 35px;
+}
+.formInfoContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.formInfoContact p {
+  display: flex;
+}
+.formInfoContact p img {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.maps {
+  width: 100%;
+  margin-bottom: -115px;
+}
+input,
+textarea {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 75%;
+}
+input[type="email"],
+input[type="text"],
+input[type="tel"],
+input[type="company"] {
+  width: 50%;
+  float: right;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  height: 40px;
+  color: #eca54d;
+  outline: none;
+  font-size: 15px;
+}
+textarea[type="comment"] {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  height: 300px;
+  padding: 10px;
+  font-size: 15px;
+  color: #eca54d;
+}
+input[type="submit"] {
+  font-size: 15px;
+  text-align: center;
+  float: right;
+  width: 14%;
+  margin-top: 10px;
+  background-color: #0d0d0d;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background-color: #0d0d0d;
+  color: #eca54d;
+  font-weight: bolder;
+  border: 2px solid rgba(211, 255, 213, 0.13);
+}
+label[class="comment"] {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+}
+
+textarea[type="comment"]:hover {
+  border: 1px solid #eca54d;
+}
+
+@media (max-width: 880px) {
+  input[type="email"],
+  input[type="text"],
+  input[type="tel"],
+  input[type="company"] {
+    width: 100%;
+  }
+  .formSection {
+    height: 130vh;
+    flex-direction: column;
+  }
+  .textInformativo {
+    width: 90%;
+  }
+  .textInformativo p {
+    margin-bottom: 30px;
+  }
+  .form {
+    width: 90%;
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .maps {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 375px) {
+  .formSection {
+    height: 170vh;
+  }
+}
+@media (max-width: 360px) {
+  .formSection {
+    height: 190vh;
+    flex-direction: column;
+  }
+}

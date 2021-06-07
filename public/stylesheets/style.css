@@ -1,0 +1,491 @@
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url("/images/plantsPhone.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeTitulo {
+  text-align: center;
+  transform: translateY(25vh);
+  color: whitesmoke;
+  letter-spacing: 6px;
+  margin-bottom: 60px;
+  font-family: "Poppins", "Open Sans", sans-serif;
+  font-size: 1200;
+}
+
+.homeContact {
+  color: whitesmoke;
+  float: right;
+  margin: 200px auto 0 auto;
+  font-size: 20px;
+}
+
+.btnContact {
+  background-color: white;
+  width: 40%;
+  text-align: center;
+  margin: 30px auto 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btnContact a {
+  text-decoration: none;
+  color: #0d0d0d;
+}
+
+/*Proyectos TITULO*/
+
+.parallax {
+  height: 200px;
+  width: 100%;
+  background: url("/images/plantsBar.jpg");
+  background-attachment: inherit;
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  padding-top: 195px;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.spanproyect:nth-child(odd) {
+  transform: skewY(15deg);
+}
+
+.spanproyect:nth-child(even) {
+  transform: skewY(-15deg);
+  background-color: #ffffff;
+  box-shadow: 0 60px 20px rgba(0, 0, 0, 0.1);
+}
+
+.spanproyect {
+  display: block;
+  background-color: #ffffff;
+  color: #0d0d0d;
+  font-weight: 900;
+  width: 120px;
+  height: 50px;
+  line-height: 55px;
+  box-shadow: 0 40px 50px rgba(0, 0, 0, 0.1);
+}
+
+/*Proyectos TIPS*/
+.proyectos {
+  background-color: white;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.card {
+  transition: opacity 5s, transform 5s;
+  text-align: center;
+  width: 95%;
+  padding: 30px;
+  background: #0d0d0d;
+  margin: 50px auto;
+  transition: 0.3s ease;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  color: #eca54d;
+  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.3),
+    inset 0 -1px 0 0 rgb(68, 68, 68);
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+.entry-title small {
+  margin-top: 20px;
+  font-family: raleway, arial, sans-serif;
+
+  text-transform: uppercase;
+}
+
+.entry-title a {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.cardspan {
+  display: block;
+  margin-top: 10px;
+  font-family: raleway, arial, sans-serif;
+  font-weight: 700;
+  color: #16a085;
+}
+
+.cardspan a {
+  color: white;
+}
+
+/*Formulario*/
+.formulario {
+  height: 100%;
+  -webkit-animation-name: opacity;
+  animation-name: opacity;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  width: 100%;
+  background: url("/images/walppaper2.png");
+  background-attachment: scroll;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.formTitulo {
+  transition: opacity 500ms, transform 500ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.formTexto {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  margin: 80px auto 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContact {
+  display: flex;
+  flex-direction: column;
+  margin:  auto;
+  margin-top: 90px;
+}
+
+.formContact p {
+  display: flex;
+  padding-bottom:10px ;
+}
+
+.formContact img {
+  align-items: center;
+  margin-right: 15px;
+}
+
+.formLogos {
+  margin-bottom: 15px;
+  width: 25px;
+  height: 25px;
+}
+
+.formBtnContact {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: -1;
+}
+
+.formBtnContact a {
+  display: flex;
+  text-decoration: none;
+  color: #0d0d0d;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 13px;
+}
+
+.footerStyle {
+  color: whitesmoke;
+  background-color: #0d0d0d;
+}
+
+.footerStyle p {
+  text-align: center;
+  font-weight: normal;
+}
+
+.logo__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+}
+
+.copy {
+  text-align: center;
+  font-size: 15px;
+}
+
+.copy a {
+  text-decoration: none;
+  color: white;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 0%;
+  right: 0;
+  margin-right: 0px;
+  z-index: 1000000;
+}
+
+@media (max-width: 360px) {
+
+  .formulario {
+    
+  }
+
+  .homeTitulo {
+    margin-bottom: 0px;
+  }
+
+  .homeContact {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 480px) {
+  .home{
+    height: 100%;
+  }
+  .homeTitulo{
+    transform: translateY(10vh);
+    margin-bottom: 10px;
+  }
+  .homeContact{
+    padding-top: 150px;
+    margin-top: 0;
+  }
+
+  .btnContact{
+    margin-bottom: 100px;
+  }
+  .card {
+    width: 60%;
+  }
+
+  .proyectos {
+    height: 100%;
+  }
+
+  .parallax {
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+}
+@media (min-width: 768px){
+  .formulario{
+    
+  }
+  .formTexto {
+    
+    margin-top: 0px;
+  }
+}
+/*Responsive design*/
+@media (min-width: 880px) {
+  .home {
+    background: url("/images/plants.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .homeTitulo {
+    transform: translateY(15vh);
+    font-size: 30px;
+    line-height: 85px;
+    letter-spacing: 8px;
+    margin-bottom: 150px;
+
+  }
+
+  .homeContact {
+    margin-top: 50px;
+  }
+
+  .parallax {
+    margin-top: 50px;
+  }
+
+  .spanproyect{
+    height: 60px;
+    width: 100px;
+  }
+
+  .card {
+    height: 200px;
+    margin-top: 50px;
+    width: 30%;
+  }
+
+  .card[data-scroll="out"] {
+    opacity: 0;
+    transform: translateY(-600%) scale(0.4);
+  }
+
+  .card[data-scroll="in"] {
+    opacity: 1;
+    transform: translateY(0%) scale(1);
+  }
+
+  .proyectos {
+    padding: 0px;
+    display: flex;
+    height: 260px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .formulario {
+    height: 100%;
+  }
+
+  .formTexto {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .formContact{
+    
+  }
+  .formBtnContact {
+    padding-right: 250px;
+  }
+
+  .formTitulo[data-scroll="out"] {
+    opacity: 0;
+    transform: translateX(100%) scale(0.4);
+  }
+
+  .formTitulo[data-scroll="in"] {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+  }
+
+  .formBtnContact {
+    -webkit-animation-name: scalex;
+    animation-name: scalex;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+
+  .botones {
+    margin-right: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@-webkit-keyframes scalex {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes scalex {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (min-width: 1200px) {
+  .proyectos {
+    margin-bottom: 80px;
+  }
+
+  .card {
+    width: 25%;
+    height: 200px;
+  }
+
+  .formulario {
+   
+  }
+
+  .formTitulo {
+  }
+
+  .formTexto{
+    margin-top: 100px;
+  }
+  .flex{
+  
+  }
+  .formContact{
+  }
+
+}
+
+@media (min-width: 375px) and (min-height: 667px) {
+  .formulario {
+    height: 95vh;
+  }
+}
+
+@media (min-width: 375px) and (min-height: 700px) {
+  .formulario {
+    height: 80vh;
+  }
+}
+
