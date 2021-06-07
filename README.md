@@ -2,7 +2,7 @@
 
 ## What will you find in this project?
 
-This is a personal fiction website, I was learning how to use ** Express ** with ejs files and ** Webpack **. Also, I worked in ** HTML, CSS and JavaScript ** (responsive design). I used some packages like ** ScrollOut ** for animations scrolling.
+This is a personal fiction website, I was learning how to use **Express** with ejs files and ** Webpack **. Also, I worked in ** HTML, CSS and JavaScript ** (responsive design). I used some packages like ** ScrollOut ** for animations scrolling.
 
 *** This is only a project, so I can test different tools *** 
 
